@@ -1,0 +1,56 @@
+.main_div{
+    background-color: red;
+    box-sizing: border-box;
+    height: 100vh;
+}
+.center_div {
+    background: white;
+    border: 1px solid rgb(32, 32, 32);
+    border-radius: 5px;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.center_div h1{
+    color: white;
+    background-color:darkmagenta;
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    width: 70%;
+}
+.center_div input{
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 150px;
+    width: 30%;
+    outline: none;
+}
+.center_div button{
+    width: 20%;
+    font-size: 25px;
+    border-radius: 100px;
+    margin-top: 20px;
+    margin-left: 150px;
+    color: darkviolet;
+    font-weight: bold;
+}
+ol li{
+    list-style: none;
+    color: deeppink;
+    margin: 3px;
+    font-weight: bold;
+}
+.todo_style{
+    display: flex;
+    padding: 3px;
+}
+.fa-times{
+    font-weight: bold;
+    color: deeppink;
+    margin-left: 150px;
+    font-size: 20px;
+}    
